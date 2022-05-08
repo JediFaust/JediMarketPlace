@@ -288,11 +288,11 @@ contract JediMarketPlace is ReentrancyGuard, ERC721Holder, ERC1155Holder {
         return true;
     }
 
-    function backDate(uint256 id) external {
-        _auctionItems[id].startDate -= 3 days;
-    }
+    // function backDate(uint256 id) external {
+    //     _auctionItems[id].startDate -= 3 days;
+    // }
 
-    function backDate1155(uint256 id) external {
-        _auctionItems1155[id].startDate -= 3 days;
-    }
+    // function backDate1155(uint256 id) external {
+    //     _auctionItems1155[id].startDate -= 3 days;
+    // }
 }
