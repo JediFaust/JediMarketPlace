@@ -16,6 +16,11 @@ describe("JediMarketPlace", function () {
   let jedi1155: Contract;
 
   beforeEach(async function () {
+    // Add code below to MarketPlace contract for testing
+    // function backDate1155(uint256 id) external {
+    //     _auctionItems1155[id].startDate -= 3 days;
+    // }
+
     // Get the signers
     [owner, userOne, userTwo, userThree] = await ethers.getSigners();
 
